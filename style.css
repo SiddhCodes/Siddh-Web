@@ -1,4 +1,35 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: fit-content;
+    width: 100vw;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav h1{
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+}
+nav ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+nav ol li a{
+    text-decoration: none;
+    color: white;
+}
+nav ol li a:hover{
+    color: blue;
+    font-size: 23px;
 }
