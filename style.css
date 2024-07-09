@@ -1,35 +1,195 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-nav{
-    height: fit-content;
-    width: 100vw;
-    margin: auto;
-    padding: 10px;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+/* ----------NAVIGATION BAR---------- */
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-nav h1{
-    font-size: 2em;
-    font-weight: 700;
-    color: white;
+nav {
+  height: auto;
+  width: 80vw;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
 }
-nav ol{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
+nav h1 {
+  font-size: 2.5rem;
+  color: blue;
 }
-nav ol li a{
-    text-decoration: none;
-    color: white;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
 }
-nav ol li a:hover{
-    color: blue;
-    font-size: 23px;
+nav ul li a {
+  text-decoration: none;
+}
+.header-text {
+  margin: auto;
+  padding: 1rem;
+  width: 80vw;
+}
+.header-text h2 {
+  margin-top: 20%;
+  font-size: 3rem;
+}
+.header-text h2 span {
+  color: blue;
+}
+.header-text p {
+  font-size: 1.5rem;
+}
+/* ----------ABOUT SECTION---------- */
+.secone {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+.secone .aboutbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.secone .aboutbox .about-photo img {
+  height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.secone .aboutbox .about-text h2 {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  font-size: 4rem;
+}
+.secone .aboutbox .about-text p {
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* ----------SKILLS SECTION--------- */
+.sectwo {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+.sectwo .skills-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sectwo .skills-box .skills-text h2 {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  font-size: 4rem;
+}
+.sectwo .skills-box .skills-text ol {
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.sectwo .skills-box .skills-img img {
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ----------PROJECT SECTION--------- */
+.secthree {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+.secthree h2 {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  font-size: 4rem;
+}
+.secthree .project-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.secthree .project-box .proone details {
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.secthree .project-box .proone summary {
+  margin: auto;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+.secthree .project-box .proview iframe {
+  height: 550px;
+  width: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ----------CONTACT SECTION---------- */
+.secfour{
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+.secfour h2{
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  font-size: 4rem;
+}
+.secfour .contact-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+.secfour .contact-box .contact-email p{
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.secfour .contact-social p{
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.secfour .contact-social .socialbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* ----------FOOTER---------- */
+.feedback-form{
+  height: 50vh;
+  width: 40vw;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid black;
+}
+.home{
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20%;
+  padding: 1rem;
+  text-decoration: none ;
 }
