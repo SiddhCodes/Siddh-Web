@@ -120,18 +120,7 @@ nav ul li a {
   padding: 1rem;
   font-size: 4rem;
 }
-.secthree .project-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 5%;
-}
-.secthree .project-box .proone details {
-  margin: auto;
-  padding: 1rem;
-  font-size: 1.5rem;
-}
-.secthree .project-box .proone summary {
+.secthree .proone summary {
   margin: auto;
   padding: 1rem;
   font-size: 2.5rem;
