@@ -136,13 +136,6 @@ nav ul li a {
   padding: 1rem;
   font-size: 2.5rem;
 }
-.secthree .project-box .proview iframe {
-  height: 550px;
-  width: 800px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 /* ----------CONTACT SECTION---------- */
 .secfour{
   height: 100vh;
