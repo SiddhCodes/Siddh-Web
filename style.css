@@ -3,16 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* ----------NAVIGATION BAR---------- */
-header {
-  height: 100vh;
+.header {
+  height: 100%;
   width: 100%;
-  background-image: linear-gradient();
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-nav {
+.navbar {
   height: auto;
   width: 80vw;
   margin: auto;
@@ -20,150 +15,19 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 1.5rem;
+  flex-wrap: wrap;
 }
-nav h1 {
-  font-size: 2.5rem;
-  color: blue;
+.nav-logo img {
+  height: auto;
+  width: 100%;
 }
-nav ul {
-  list-style: none;
+.nav-list {
+  list-style-type: none;
   display: flex;
-  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
-nav ul li a {
+.nav-item a {
   text-decoration: none;
-}
-.header-text {
-  margin: auto;
-  padding: 1rem;
-  width: 80vw;
-}
-.header-text h2 {
-  margin-top: 20%;
-  font-size: 3rem;
-}
-.header-text h2 span {
-  color: blue;
-}
-.header-text p {
-  font-size: 1.5rem;
-}
-/* ----------ABOUT SECTION---------- */
-.secone {
-  height: 100vh;
-  width: 100%;
-  margin: auto;
-  padding: 1rem;
-}
-.secone .aboutbox {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.secone .aboutbox .about-photo img {
-  height: 600px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.secone .aboutbox .about-text h2 {
-  text-align: center;
-  margin: auto;
-  padding: 1rem;
-  font-size: 4rem;
-}
-.secone .aboutbox .about-text p {
-  margin: auto;
-  padding: 1rem;
-  font-size: 1.5rem;
-}
-/* ----------SKILLS SECTION--------- */
-.sectwo {
-  height: 100vh;
-  width: 100%;
-  margin: auto;
-  padding: 1rem;
-}
-.sectwo .skills-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.sectwo .skills-box .skills-text h2 {
-  text-align: center;
-  margin: auto;
-  padding: 1rem;
-  font-size: 4rem;
-}
-.sectwo .skills-box .skills-text ol {
-  margin: auto;
-  padding: 1rem;
-  font-size: 1.5rem;
-}
-.sectwo .skills-box .skills-img img {
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* ----------PROJECT SECTION--------- */
-.secthree {
-  height: 100vh;
-  width: 100%;
-  margin: auto;
-  padding: 1rem;
-}
-.secthree h2 {
-  text-align: center;
-  margin: auto;
-  padding: 1rem;
-  font-size: 4rem;
-}
-.secthree .proone summary {
-  margin: auto;
-  padding: 1rem;
-  font-size: 2.5rem;
-}
-/* ----------CONTACT SECTION---------- */
-.secfour{
-  height: 100vh;
-  width: 100%;
-  margin: auto;
-  padding: 1rem;
-}
-.secfour h2{
-  text-align: center;
-  margin: auto;
-  padding: 1rem;
-  font-size: 4rem;
-}
-.secfour .contact-box{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 10%;
-}
-.secfour .contact-box .contact-email p{
-  margin: auto;
-  padding: 1rem;
-  font-size: 1.5rem;
-}
-.secfour .contact-social p{
-  margin: auto;
-  padding: 1rem;
-  font-size: 1.5rem;
-}
-.secfour .contact-social .socialbox{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-/* ----------FOOTER---------- */
-.feedback-form{
-  height: 50vh;
-  width: 40vw;
-  margin: auto;
-  padding: 1rem;
-  border: 1px solid black;
 }
